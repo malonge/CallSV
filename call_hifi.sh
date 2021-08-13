@@ -16,6 +16,7 @@ if [ $# -lt 3 ] ; then
     exit 1
 fi
 
+# Paths to dependency executables. These can be manually edited for installation.
 SNIFFLES=sniffles
 IRIS=iris
 MM2=minimap2

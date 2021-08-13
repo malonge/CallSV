@@ -14,6 +14,7 @@ if [ $# -lt 1 ] ; then
     exit 1
 fi
 
+# Paths to dependency executables. These can be manually edited for installation.
 JASMINE=jasmine
 
 $JASMINE file_list=$1 out_file=merged.vcf max_dist=500 spec_reads=3 --output_genotypes
